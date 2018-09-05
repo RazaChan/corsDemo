@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../static/css/index.css" th:href="@{css/index.css}" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+    <input type="button" value="getReq">
+    <input type="button" value="postReq">
+    <input type="button" value="putReq">
+    <input type="button" value="delReq">
+    <h2 th:text="${msg}"></h2>
+</div>
+</body>
+</html>
